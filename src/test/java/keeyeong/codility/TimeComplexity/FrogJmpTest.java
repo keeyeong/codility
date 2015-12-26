@@ -1,4 +1,4 @@
-package keeyeong.codility.lessons01;
+package keeyeong.codility.TimeComplexity;
 
 import static org.junit.Assert.*;
 
