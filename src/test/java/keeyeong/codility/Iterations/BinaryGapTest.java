@@ -15,12 +15,16 @@ public class BinaryGapTest {
 	}
 
 	@Test
-	public void testSolution() {
+	public void testExamples() {
 		assertEquals("Example: input 9", 2, s.solution(9));
 		assertEquals("Example: input 529", 4, s.solution(529));
 		assertEquals("Example: input 20", 1, s.solution(20));
 		assertEquals("Example: input 15", 0, s.solution(15));
 		assertEquals("Example: input 1041", 5, s.solution(1041));
+	}
+
+	@Test
+	public void testMinMax() {
 		assertEquals("Min: input 1", 0, s.solution(1));
 		assertEquals("Max: input " + Integer.MAX_VALUE, 0, s.solution(Integer.MAX_VALUE));
 	}
