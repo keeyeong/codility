@@ -1,5 +1,9 @@
 package keeyeong.codility.TimeComplexity;
 
+/*
+ * https://codility.com/programmers/task/tape_equilibrium/
+ */
+
 public class TapeEquilibrium {
 	public int solution(int[] A) {
 		int left = A[0];

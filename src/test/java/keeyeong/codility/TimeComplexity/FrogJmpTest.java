@@ -2,6 +2,10 @@ package keeyeong.codility.TimeComplexity;
 
 import static org.junit.Assert.*;
 
+/*
+ * https://codility.com/programmers/task/frog_jmp/
+ */
+
 import org.junit.Before;
 import org.junit.Test;
 

@@ -5,6 +5,10 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/*
+ * https://codility.com/programmers/task/binary_gap/
+ */
+
 public class BinaryGapTest {
 
 	BinaryGap s;

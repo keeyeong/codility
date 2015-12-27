@@ -5,6 +5,10 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/*
+ * https://codility.com/programmers/task/odd_occurrences_in_array/
+ */
+
 public class OddOccurrencesInArrayTest {
 
 	OddOccurrencesInArray s;

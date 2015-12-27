@@ -1,5 +1,9 @@
 package keeyeong.codility.Iterations;
 
+/*
+ * https://codility.com/programmers/task/binary_gap/
+ */
+
 public class BinaryGap {
 	public int solution(int N) {
 		int maxGap = 0;
