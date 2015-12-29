@@ -3,10 +3,15 @@ package keeyeong.codility.others;
 import java.util.Calendar;
 
 public class WeeksIntervalByMonths {
+	/*
+	 * A = Begin Month (inclusive), B = End Month (inclusive), Y = Year, W = 1st
+	 * January Day
+	 */
+
 	public int solution(int Y, String A, String B, String W) {
 		// write your code in Java SE 8
 		Calendar cal = Calendar.getInstance();
-		int count = 0;
+		// int count = 0;
 		int offset = -1;
 		int startWeek;
 		int endWeek;
@@ -33,6 +38,12 @@ public class WeeksIntervalByMonths {
 		cal.set(Calendar.SECOND, cal.getActualMaximum(Calendar.SECOND));
 		cal.set(Calendar.MILLISECOND, cal.getActualMaximum(Calendar.MILLISECOND));
 		endWeek = cal.get(Calendar.WEEK_OF_YEAR);
+		// If the week is ending at the start of the following year
+		// Should be a 51 full weeks year (ugly but works!)
+		if (endWeek == 1) {
+			endWeek = 53;
+		}
+		// System.out.println("Start : " + startWeek + "; End : " + endWeek);
 		if (cal.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY) {
 			offset++;
 		}
