@@ -4,5 +4,9 @@
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/${PROJECT_DIR_NAME}/src/main/python/TimeComplexity</path>
+<path>/${PROJECT_DIR_NAME}/src/main/python</path>
+<path>/${PROJECT_DIR_NAME}/src/main/python/CountingElements</path>
+<path>/${PROJECT_DIR_NAME}/src/main/python/PrefixSums</path>
+<path>/${PROJECT_DIR_NAME}/src/main/python/Sorting</path>
 </pydev_pathproperty>
 </pydev_project>
