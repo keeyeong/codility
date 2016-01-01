@@ -1,7 +1,5 @@
 package keeyeong.codility.Leader;
 
-import java.util.Arrays;
-
 import keeyeong.support.Support;
 
 public class Dominator {
