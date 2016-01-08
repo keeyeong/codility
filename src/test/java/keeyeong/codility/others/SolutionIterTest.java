@@ -2,6 +2,7 @@ package keeyeong.codility.others;
 
 import static org.junit.Assert.*;
 
+import java.io.File;
 import java.io.FileReader;
 
 import org.junit.After;
@@ -15,10 +16,12 @@ public class SolutionIterTest {
 	 * for (Integer x : new SolutionIter(reader)) { System.out.println(x); }
 	 */
 
-	@Before
-	public void setUp() throws Exception {
+	@Test
+	public void testIteratingThrough() {
 		try {
-			FileReader f = new FileReader("SolutionInterTestInput.txt");
+
+			FileReader f = new FileReader("src" + File.separator + "test" + File.separator + "data" + File.separator
+					+ "SolutionIter" + File.separator + "Example.txt");
 			SolutionIter solution = new SolutionIter(f);
 			for (Integer x : solution) {
 				System.out.println(x);
